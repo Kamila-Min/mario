@@ -65,7 +65,6 @@ public:
     }
 
 
-
 private:
     std::vector<sf::FloatRect> mBlocks  {};
     Player mPlayer                      {{400, 400}};
