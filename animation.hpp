@@ -28,7 +28,7 @@ public:
         return {mTextureRects[mCurrentFrame].width, mTextureRects[mCurrentFrame].height};
     }
 
-    void update(float dt)
+    void update (float dt)
     {
         mTime += dt;
         mCurrentFrame = static_cast<int>(mAnimationSpeed * mTime);
