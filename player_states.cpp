@@ -215,7 +215,6 @@ void Running::hitGround(Player* player)
 
 
 
-
 Sliding::Sliding(Player* player) : PlayerState()
 {
     if (player->mVelocity.x > 0)
