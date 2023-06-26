@@ -6,7 +6,6 @@
 #include "player_states.hpp"
 
 
-
 Player::Player(sf::Vector2f position) : mPosition{position}
 {
     if (!mTexture.loadFromFile("./hero.png"))
