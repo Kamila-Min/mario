@@ -98,7 +98,6 @@ private:
 };
 
 
-
 class Hooked : public PlayerState
 {
 public:
