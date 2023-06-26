@@ -34,7 +34,6 @@ public:
     friend class SecondAttack;
     friend class ThirdAttack;
 
-
 private:
 
     sf::Vector2f    mPosition           {0, 0};
